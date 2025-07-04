@@ -16,6 +16,18 @@ This project showcases a complete ETL pipeline that:
 - **Open-Meteo API**: Provides current weather information
 - **Docker**: Containerizes the entire setup for easy deployment
 
+## 📸 Pipeline in Action
+
+![Weather ETL Pipeline Running Successfully](Airflow_UI.png)
+
+*Screenshot showing the weather ETL pipeline running successfully in Airflow UI with all tasks completed (green status)*
+
+The above image demonstrates:
+- ✅ **extract_weather_data**: Successfully fetched data from Open-Meteo API
+- ✅ **transform_weather_data**: Successfully processed the raw weather data
+- ✅ **load_weather_data**: Successfully loaded data into PostgreSQL database
+- **Status**: All tasks completed successfully
+
 ## 📁 Project Structure
 
 ```
